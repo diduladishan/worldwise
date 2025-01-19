@@ -13,9 +13,7 @@ import { useCities } from "../context/CitiesContext";
 
 export default function Map() {
   const { cities } = useCities();
-
   const [mapPosition, setMapPosition] = useState([40, 0]);
-
   const [searchParams] = useSearchParams();
 
   const mapLat = searchParams.get("lat");
