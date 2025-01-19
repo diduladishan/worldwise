@@ -66,5 +66,9 @@ function ChangeCenter({ position }) {
 }
 
 function DetectClcik() {
-  useMapEvents({ click: (e) => Navigate("form") });
+  const navigate = useNavigate();
+
+  useMapEvents({
+    click: (e) => navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`),
+  });
 }
