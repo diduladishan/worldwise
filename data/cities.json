@@ -71,6 +71,18 @@
         "lng": "9.008789062500002"
       },
       "id": 98443200
+    },
+    {
+      "cityName": "Township of Lincoln",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2025-01-20T08:06:01.003Z",
+      "notes": "",
+      "position": {
+        "lat": "37.49229399862877",
+        "lng": "-101.40380859375001"
+      },
+      "id": 98443201
     }
   ]
 }
